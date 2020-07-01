@@ -1,0 +1,203 @@
+{
+  "schedule": [
+    {
+      "date": "2019-10-09",
+      "groups": [
+        {
+          "time": "9:00 am",
+          "sessions": [
+            {
+              "name": "Arival+Chekin",
+              "timeStart": "9:00 am",
+              "timeEnd": "11:30 am",
+              "location": "Reception",
+              "tracks": ["Angular"],
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "time": "11:30 am",
+          "sessions": [
+            {
+              "name": "Coffee break",
+              "location": "Garden",
+              "description": "",
+              "timeStart": "11:30 am",
+              "timeEnd": "13:30 pm",
+              "tracks": ["Angular"],
+              "id": "2"
+            }
+          ]
+        },
+        {
+          "time": "13:30 pm",
+          "sessions": [
+            {
+              "name": "Opening",
+              "location": "Main Plannery",
+              "timeStart": "13:30 pm",
+              "timeEnd": "15:00 pm",
+              "tracks": ["Angular"],
+              "id": "3"
+            }
+          ]
+        },
+        {
+          "time": "15:00 pm",
+          "sessions": [
+            {
+              "name": "Essence",
+              "location": "Main Plannery",
+              "description": "",
+              "timeStart": "15:00 pm",
+              "timeEnd": "16:30 pm",
+              "tracks": ["Workshop"],
+              "id": "4"
+            },
+            {
+              "name": "حضرموت is it home for you ?",
+              "location": "Second Plannery",
+              "description": "",
+              "speakerNames": ["Lionel Lion", "Gino Giraffe"],
+              "timeStart": "15:00 pm",
+              "timeEnd": "15:45 pm",
+              "tracks": ["Communication"],
+              "id": "5"
+            }
+          ]
+        },
+        {
+          "sessions": [
+            {
+              "name": "AIESEC HISTORY",
+              "location": "Main Plannery",
+              "description": "",
+              "timeStart": "16:30 pm",
+              "timeEnd": "17:15 pm",
+              "tracks": ["Workshop"],
+              "id": "6"
+            },
+            {
+              "name": "Summer peak assesment",
+              "location": "Second Plannery",
+              "description": "",
+              "speakerNames": ["Lionel Lion", "Gino Giraffe"],
+              "timeStart": "15:45 pm",
+              "timeEnd": "17:15 pm",
+              "tracks": ["Communication"],
+              "id": "7"
+            }
+          ]
+        },
+        {
+          "time": "17:15 pm",
+          "sessions": [
+            {
+              "name": "Coffee Break",
+              "location": "Dining Hall",
+              "description": "",
+              "timeStart": "17:15 pm",
+              "timeEnd": "17:30 pm",
+              "tracks": ["Food"],
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "time": "17:30 pm",
+          "sessions": [
+            {
+              "name": "AIESEC STRUCTURE",
+              "location": "Hall 1",
+              "description": "",
+              "speakerNames": ["Paul Puppy"],
+              "timeStart": "17:30 pm",
+              "timeEnd": "18:00 pm pm",
+              "tracks": ["Communication"],
+              "id": "9"
+            },
+            {
+              "name": "Process review and Action Steps",
+              "location": "Hall 1",
+              "description": "",
+              "speakerNames": ["Gino Giraffe"],
+              "timeStart": "17:30 pm",
+              "timeEnd": "18:30 pm",
+              "tracks": ["Communication"],
+              "id": "10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "speakers": [
+    {
+      "name": "Ahmed Mathlouti",
+      "profilePic": "assets/img/speakers/presedent.jpg",
+      "about": " President of Aiesec Hadrumet in Tunisia",
+      "email": "ahmed.mathlouthi@aiesec.net",
+      "phone": "+216 56 003 955",
+      "id": "1"
+    }
+  ],
+
+  "map": [
+    {
+      "name": "Heleya",
+      "lat": 35.764401,
+      "lng": 10.751299,
+      "center": true
+    },
+    {
+      "name": "Amir",
+      "lat": 35.7640801,
+      "lng": 10.7342974
+    }
+  ],
+
+  "tracks": [
+    {
+      "name": "Angular",
+      "icon": "logo-angular"
+    },
+    {
+      "name": "Documentation",
+      "icon": "document"
+    },
+    {
+      "name": "Food",
+      "icon": "restaurant"
+    },
+    {
+      "name": "Ionic",
+      "icon": "logo-ionic"
+    },
+    {
+      "name": "Tooling",
+      "icon": "hammer"
+    },
+    {
+      "name": "Design",
+      "icon": "color-palette"
+    },
+    {
+      "name": "Services",
+      "icon": "cog"
+    },
+    {
+      "name": "Workshop",
+      "icon": "construct"
+    },
+    {
+      "name": "Communication",
+      "icon": "call"
+    },
+    {
+      "name": "Navigation",
+      "icon": "compass"
+    }
+  ]
+}

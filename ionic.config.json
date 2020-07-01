@@ -1,5 +1,7 @@
 {
-  "name": "aiesecApp",
-  "integrations": {},
-  "type": "angular"
+  "name": "projet_aiesecApp",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
